@@ -20,8 +20,8 @@ import TweetProcessor from './TweetProcessor.js';
 
         setupTweetProcessor (twitterUser) {
             window.setInterval(function() {
-            let twitterElements = TweetProcessor.getTweetsByData('data-screen-name', twitterUser);
-            TweetProcessor.loadCatFacts(twitterElements);
+                let twitterElements = TweetProcessor.getTweetsByData('data-screen-name', twitterUser);
+                TweetProcessor.loadCatFacts(twitterElements);
             }, 500);
         }
     }
