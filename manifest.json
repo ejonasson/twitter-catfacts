@@ -2,7 +2,7 @@
 "manifest_version": 2,
     "name": "CatFacts On Twitter",
     "description": "Makes Cats great again. Replace the tweets of Donald Trump (or any other Twitter user) with cat facts",
-    "version": "1.0",
+    "version": "1.0.1",
     "content_scripts": [
         {
             "matches": [
